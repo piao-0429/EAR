@@ -1,0 +1,19 @@
+{
+    "env_name" : "Hopper-Vel",
+
+    "lse_shape":16,
+
+    "lte_shape":3,
+
+    "state_net":{
+        "hidden_shapes": [400,400],
+        "append_hidden_shapes": []
+    },
+
+    "action_net":{
+        "hidden_shapes": [400,400],
+        "append_hidden_shapes": [400,400]
+    },
+
+    "alpha" : 0.5
+}
